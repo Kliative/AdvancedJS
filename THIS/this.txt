@@ -1,0 +1,11 @@
+> this === window
+> true
+> var myObj = {
+>     name: 'Jade',
+>     hello: function(){
+>         return 'Hello ' + this.name;
+>     }
+> }
+> undefined
+> myObj.hello()
+> "Hello Jade"

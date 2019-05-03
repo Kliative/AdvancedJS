@@ -1,0 +1,13 @@
+> window
+> Window {postMessage: ƒ, blur: ƒ, focus: ƒ, close: ƒ, parent: Window, …}
+> var myname = 'Jade';
+> undefined
+> window.myname
+> "Jade"
+> function test() {
+>     var name = 'name';
+>     return name;
+> }
+> undefined
+> test()
+> "name"
