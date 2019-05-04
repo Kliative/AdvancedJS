@@ -1,4 +1,4 @@
-Another Way to create Objects
+// Another way to create Objects and factories
 
 class person {
     constructor(name,age){
@@ -9,10 +9,12 @@ class person {
         return 'Hello ' + this.name;
     }
 }
-undefined
+
 var jade = new person('Jade',26);
-undefined
+
 jade
+/*
 person {name: "Jade", age: 26}
 jade.hello()
 "Hello Jade"
+*/

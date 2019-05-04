@@ -2,23 +2,24 @@ var myObj = {
     num1:5,
     num2:4
 }
-undefined
+
 var myFunc = function() {
     return this.num1 + this.num2;
 }
-undefined
-myFunc()
-NaN
+
+myFunc() 
+// will return NaN
+
 var added = myFunc.bind(myObj);
-undefined
-9
-9
+
+// added = 9
+
 var myobj2 = {
     num1:3,
     num2:10
 }
-undefined
+
 var anotherAdded = myFunc.bind(myobj2)
-undefined
-anotherAdded()
-13
+
+// anotherAdded() = 13
+

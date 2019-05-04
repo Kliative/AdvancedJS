@@ -1,3 +1,5 @@
+// Like AJAX from Jquery Asyncronous calls
+
 var request = new XMLHttpRequest();
 
 request.onreadystatechange = function(){
@@ -8,8 +10,7 @@ request.open('get','https://randomuser.me/api', true);
 
 request.send();
 
-with a promise
-
+// with a promise
 
 var mypromise = new Promise(function(resolved, rejected){
     

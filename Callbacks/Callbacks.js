@@ -1,12 +1,13 @@
-Passing a function another function
+// Passing a function another function
 
 function calc(num, callback) { 
     return callback(num);
 };
-undefined
+
 var addTen = function(num){
     return num + 10;
 }
-undefined
+
 calc(3, addTen);
+
 13

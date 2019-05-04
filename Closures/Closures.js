@@ -1,4 +1,5 @@
-Closurers are functions that return functions
+// Closurers are functions that return functions
+
 var add = function(num1) {
     
     return function(num2) {
@@ -6,10 +7,12 @@ var add = function(num1) {
     }
     
 }
-undefined
+
 var addTwo = add(2);
-undefined
+
 addTwo(3);
-5
+
+/* 5 */
 var addTen = add(10);
-undefined
+
+/* 15 */
