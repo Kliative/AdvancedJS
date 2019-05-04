@@ -1,3 +1,5 @@
+Creating Objects and Factories
+
 > var person = function(name, age){
 >     this.name = name;
 >     this.age = age;   

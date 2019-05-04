@@ -1,0 +1,18 @@
+Another Way to create Objects
+
+class person {
+    constructor(name,age){
+        this.name = name;
+        this.age = age;
+    }
+    hello() {
+        return 'Hello ' + this.name;
+    }
+}
+undefined
+var jade = new person('Jade',26);
+undefined
+jade
+person {name: "Jade", age: 26}
+jade.hello()
+"Hello Jade"
